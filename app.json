@@ -1,4 +1,8 @@
 {
 	"name": "RocketChatRN",
-	"server": "https://open.rocket.chat"
+	"share": "ShareRocketChatRN",
+	"displayName": "RocketChatRN",
+	"server": "https://hakimchat.com",
+	"appGroup": "group.ios.chat.rocket",
+	"appStoreID": "1272915472"
 }

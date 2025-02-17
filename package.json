@@ -1,3 +1,4 @@
+
 {
 	"name": "rocket-chat-reactnative",
 	"version": "4.57.1",
@@ -10,7 +11,7 @@
 		"prettier-lint": "prettier --write . && yarn lint",
 		"ios": "npx react-native run-ios",
 		"android": "npx react-native run-android --mode=experimentalPlayDebug --main-activity chat.rocket.reactnative.MainActivity",
-		"android-whitelabel": "npx react-native run-android --main-activity chat.rocket.reactnative.MainActivity --mode=experimentalPlayDebug --appId",
+		"android-whitelabel": "npx react-native run-android --main-activity chat.rocket.reactnative.MainActivity --mode=experimentalPlayDebug --appId com.hakim.chat",
 		"log-android": "react-native log-android",
 		"snyk-protect": "snyk protect",
 		"postinstall": "patch-package",
